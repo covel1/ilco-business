@@ -4050,7 +4050,7 @@ a.mob {
   direction: ltr;
   -webkit-font-feature-settings: 'liga';
   -webkit-font-smoothing: antialiased;
-  content: 'face';
+  *content: 'face';
   color: red;
   text-align: center;
   padding-bottom: 20px; }
