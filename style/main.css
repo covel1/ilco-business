@@ -3989,24 +3989,22 @@ a.mdc-list-item {
   background-color: #004040 !important;
   background-color: var(--mdc-theme-secondary-dark, #004040) !important; }
 
+html {
+  font-size: 1em;
+  line-height: 1.5; }
+
 body {
-  margin: 0; }
+  margin: 0;
+  background-color: #f7f7f7; }
 
 .container {
   width: 90%;
   margin-left: auto;
-  margin-right: auto;
-  margin-top: 100px; }
+  margin-right: auto; }
 
 .no-mob {
   display: none; }
 
-@media screen and (min-width: 840px) {
-  .mob {
-    display: none; }
-
-  .no-mob {
-    display: inherit; } }
 img {
   max-width: 100%;
   height: auto; }
@@ -4054,5 +4052,12 @@ a.mob {
   color: red;
   text-align: center;
   padding-bottom: 20px; }
+
+@media screen and (min-width: 840px) {
+  .mob {
+    display: none; }
+
+  .no-mob {
+    display: inherit; } }
 
 /*# sourceMappingURL=main.css.map */
