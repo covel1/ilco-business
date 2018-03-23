@@ -364,7 +364,7 @@
 
 .mdc-toolbar-fixed-adjust {
   margin-top: 64px; }
-  @media (max-width: 959px) and (max-height: 599px) {
+  @media (max-width: 959px) and (max-width: 599px) {
     .mdc-toolbar-fixed-adjust {
       margin-top: 48px; } }
   @media (max-width: 599px) {
