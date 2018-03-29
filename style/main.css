@@ -3995,7 +3995,7 @@ html {
 
 body {
   margin: 0;
-  background-color: #f7f7f7; }
+  background-color: #f8f8f8; }
 
 .container {
   width: 90%;
@@ -4052,6 +4052,10 @@ a.mob {
   color: red;
   text-align: center;
   padding-bottom: 20px; }
+
+.mdc-card__media {
+  min-height: 250px;
+  background-position: center; }
 
 @media screen and (min-width: 840px) {
   .mob {
